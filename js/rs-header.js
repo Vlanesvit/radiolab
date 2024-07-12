@@ -51,7 +51,7 @@ function menuFunction() {
 			const menuItemDropdownsMenuThree = menu.querySelectorAll('.menu__list > .menu__dropdown > .menu__dropdown_list > .menu__dropdown > .menu__dropdown_list > .menu__dropdown > .menu__dropdown_list > .menu__dropdown > .menu__dropdown_list');
 
 			// Добавляем иконки в пункты с выпадающим меню
-			menuItem.forEach(item => {
+			menuItemDropdowns.forEach(item => {
 				const menuLink = item.querySelector('a');
 				let icon = document.createElement('i');
 				icon.classList.add('menu__dropdown_arrow')
