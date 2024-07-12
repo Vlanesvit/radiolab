@@ -1141,15 +1141,18 @@
 										<div class="form__block">
 											<div class="form__line">
 												<input autocomplete="off" type="text" name="form[]"
-													placeholder="Ваше имя" class="rs-input" required>
+													placeholder="Ваше имя" class="rs-input" required
+													data-placeholder-nohide data-validate data-required>
 											</div>
 											<div class="form__line">
 												<input autocomplete="off" type="email" name="form[]"
-													placeholder="E-mail" class="rs-input" required>
+													placeholder="E-mail" class="rs-input" required
+													data-placeholder-nohide data-validate data-required="email">
 											</div>
 											<div class="form__line">
 												<input autocomplete="off" type="tel" name="form[]" placeholder="Телефон"
-													class="rs-input" required>
+													class="rs-input" required data-placeholder-nohide data-validate
+													data-required="phone">
 											</div>
 										</div>
 										<div class="form__footer">
@@ -1255,6 +1258,7 @@
 	<script src="js/rs-sliders-init.js"></script>
 	<script src="lib/aos/aos.js"></script>
 	<script>AOS.init({ duration: 500, easing: "ease-out-quart", once: true });</script>
+	<script src="js/rs-validate-form.js"></script>
 	<script src="js/rs-script.js"></script>
 
 </body>

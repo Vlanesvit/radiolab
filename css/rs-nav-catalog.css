@@ -86,6 +86,26 @@
     margin-left: 10px;
   }
 }
+.rs-nav-catalog__block:last-child .rs-nav-catalog__item h4 {
+  position: relative;
+}
+.rs-nav-catalog__block:last-child .rs-nav-catalog__item h4::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0%;
+  height: 1px;
+  background-color: #fff;
+  -webkit-transition: width 0.3s ease 0s;
+  transition: width 0.3s ease 0s;
+}
+@media (any-hover: hover) {
+  .rs-nav-catalog__block:last-child:hover .rs-nav-catalog__item h4::after {
+    width: 100%;
+    left: 0;
+  }
+}
 .rs-nav-catalog__item {
   position: relative;
   min-height: 280px;

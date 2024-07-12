@@ -58,9 +58,8 @@
 
 	// .rs-product-slider__img
 	&__img {
-		border: 1px solid #d1d1d1;
+		background-color: #d1d1d1;
 		position: relative;
-		background-color: #fff;
 		clip-path: polygon(
 			40px 0%,
 			100% 0,
@@ -71,6 +70,21 @@
 			0 100%,
 			0% 40px
 		);
+
+		&::before {
+			content: "";
+			position: absolute;
+			top: 1px;
+			left: 1px;
+			bottom: 1px;
+			right: 1px;
+			display: block;
+			width: calc(100% - 2px);
+			height: calc(100% - 2px);
+			background-color: #fff;
+			clip-path: inherit;
+			z-index: -1;
+		}
 
 		@media (max-width: 1439.98px) {
 			clip-path: polygon(

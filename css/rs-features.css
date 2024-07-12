@@ -18,10 +18,25 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background-color: #f5f6f6;
-  border: 1px solid #cccdcd;
+  position: relative;
+  background-color: #cccdcd;
   -webkit-clip-path: polygon(42px 0%, 100% 0, 100% 0, 100% calc(100% - 42px), calc(100% - 42px) 100%, 0 100%, 0 100%, 0% 42px);
           clip-path: polygon(42px 0%, 100% 0, 100% 0, 100% calc(100% - 42px), calc(100% - 42px) 100%, 0 100%, 0 100%, 0% 42px);
+}
+.rs-features__list::before {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  right: 1px;
+  display: block;
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  background-color: #f5f6f6;
+  -webkit-clip-path: inherit;
+          clip-path: inherit;
+  z-index: -1;
 }
 @media (max-width: 1439.98px) {
   .rs-features__list {
