@@ -565,7 +565,7 @@
     background-color: rgba(0, 27, 54, 0.8);
   }
   .rs-header__menu .menu__dropdown_list li > .menu__dropdown_list {
-    top: -20px;
+    top: 0px;
     left: 100%;
   }
   .rs-header__menu .menu__dropdown_list li:first-child > a {
