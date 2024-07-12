@@ -1,0 +1,1232 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=, initial-scale=1.0" />
+	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="lib/swiper/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="lib/aos/aos.css">
+	<link rel="stylesheet" href="css/rs-style.css" />
+	<title>Radiolab - Главная</title>
+</head>
+
+<body data-aos>
+
+	<div class="wrapper">
+
+		<link rel="stylesheet" href="css/rs-header.css" />
+		<script src="js/rs-header.js" defer></script>
+		<header>
+			<div class="rs-header _header-transparent">
+				<div class="rs-header__block">
+					<div class="rs-header__top">
+						<div class="rs-header__container">
+							<div class="rs-header__wrapper">
+								<div class="rs-header__logo">
+									<a href="#">
+										<img src="./img/header/logo.svg" alt="">
+									</a>
+								</div>
+								<div class="rs-header__contact">
+									<ul>
+										<li><a href="mailto:shop@radiolab.ru">shop@radiolab.ru</a></li>
+										<li><a href="tel:74957302002">+7 (495) 730-20-02</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="rs-header__bottom">
+						<div class="rs-header__container">
+							<div class="rs-header__wrapper">
+								<div class="rs-header__menu menu">
+									<button type="button" class="menu__icon icon-menu">
+										<span class="menu__icon_burger">
+											<svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path d="M2.65625 8.5H14.3438" stroke="white" stroke-width="1.7"
+													stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M2.65625 4.25H14.3438" stroke="white" stroke-width="1.7"
+													stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M2.65625 12.75H14.3438" stroke="white" stroke-width="1.7"
+													stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+										</span>
+										<span class="menu__icon_text">
+											<span>Меню</span>
+											<span>Закрыть</span>
+										</span>
+									</button>
+
+									<div class="menu__block">
+										<nav class="menu__body">
+											<ul class="menu__list">
+												<li class="menu-item current_menu_item">
+													<a href="#">Главная</a>
+												</li>
+
+												<li class="menu-item menu__dropdown">
+													<a href="#">Каталог</a>
+
+													<ul class="menu__dropdown_list" hidden>
+														<li class="menu-item">
+															<a href="#">Антенны</a>
+														</li>
+
+														<li class="menu-item">
+															<a href="#">ВЧ и СВЧ коннекторы</a>
+														</li>
+
+														<li class="menu-item">
+															<a href="#">ВЧ и СВЧ кабель</a>
+														</li>
+
+														<li class="menu-item">
+															<a href="#">Кабельные сборки</a>
+														</li>
+
+														<li class="menu-item">
+															<a href="#">СВЧ компоненты SRTechnology</a>
+														</li>
+
+														<li class="menu-item">
+															<a href="#">Источники питания</a>
+														</li>
+
+														<li class="menu-item">
+															<a href="#">Термоусаживаемая трубка</a>
+														</li>
+													</ul>
+												</li>
+
+												<li class="menu-item">
+													<a href="#">Производство</a>
+												</li>
+
+												<li class="menu-item">
+													<a href="#">О компании</a>
+												</li>
+
+												<li class="menu-item">
+													<a href="#">Доставка</a>
+												</li>
+
+												<li class="menu-item">
+													<a href="#">контакты</a>
+												</li>
+											</ul>
+										</nav>
+
+										<div class="menu__contact">
+											<h6>Свяжитесь с нами</h6>
+											<ul class="menu__list">
+												<li class="menu-item">
+													<a href="tel:74957302002">
+														<svg width="14" height="15" viewBox="0 0 14 15" fill="none"
+															xmlns="http://www.w3.org/2000/svg">
+															<path
+																d="M0 2.44444C0 9.10254 5.39746 14.5 12.0556 14.5C12.3559 14.5 12.6538 14.489 12.9487 14.4674C13.2871 14.4426 13.4563 14.4302 13.6103 14.3416C13.7379 14.2681 13.8589 14.1379 13.9228 14.0053C14 13.8453 14 13.6585 14 13.2851V11.0939C14 10.7798 14 10.6228 13.9483 10.4882C13.9027 10.3693 13.8285 10.2634 13.7324 10.1799C13.6235 10.0853 13.476 10.0317 13.1808 9.92434L10.6866 9.01736C10.3433 8.8925 10.1716 8.83007 10.0087 8.84066C9.86505 8.85001 9.72682 8.89903 9.6094 8.98227C9.47622 9.07666 9.38223 9.23332 9.19425 9.54662L8.55556 10.6111C6.49455 9.6777 4.8237 8.00468 3.88889 5.94444L4.95338 5.30575C5.26668 5.11777 5.42334 5.02378 5.51773 4.8906C5.60097 4.77318 5.64999 4.63495 5.65934 4.49132C5.66993 4.32843 5.6075 4.15674 5.48264 3.81337L4.57566 1.31916C4.46834 1.02404 4.41468 0.87647 4.3201 0.767631C4.23657 0.671491 4.1307 0.597338 4.0118 0.551684C3.87719 0.5 3.72017 0.5 3.40614 0.5H1.2149C0.841461 0.5 0.654742 0.5 0.49465 0.577197C0.362057 0.641133 0.231885 0.762122 0.158435 0.889692C0.0697527 1.04372 0.0573619 1.21293 0.0325804 1.55134C0.0109868 1.84622 0 2.14405 0 2.44444Z"
+																fill="white" />
+														</svg>
+
+														+7 (495) 730-20-02
+													</a>
+												</li>
+												<li class="menu-item">
+													<a href="mailto:shop@radiolab.ru">
+														<svg width="14" height="15" viewBox="0 0 14 15" fill="none"
+															xmlns="http://www.w3.org/2000/svg">
+															<path
+																d="M0.0433872 3.8106C0.220264 3.06019 0.917196 2.5 1.75 2.5H12.25C13.0828 2.5 13.7797 3.06019 13.9566 3.8106L7 7.90441L0.0433872 3.8106ZM0 4.77254V10.7579L5.0778 7.76071L0 4.77254ZM5.91623 8.25411L0.167887 11.6471C0.448529 12.217 1.05147 12.6111 1.75 12.6111H12.25C12.9485 12.6111 13.5515 12.217 13.8321 11.6471L8.08377 8.25411L7 8.89188L5.91623 8.25411ZM8.9222 7.76071L14 10.7579V4.77254L8.9222 7.76071Z"
+																fill="white" />
+														</svg>
+														shop@radiolab.ru
+													</a>
+												</li>
+											</ul>
+											<a href="#" class="rs-btn _btn-primary">Cвязаться с нами</a>
+										</div>
+
+										<div class="menu__action">
+											<ul class="menu__list">
+												<li class="menu-item">
+													<a href="#">
+														<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+															xmlns="http://www.w3.org/2000/svg">
+															<path
+																d="M10.0002 10.8333C12.3013 10.8333 14.1668 8.96785 14.1668 6.66667C14.1668 4.36548 12.3013 2.5 10.0002 2.5C7.69898 2.5 5.8335 4.36548 5.8335 6.66667C5.8335 8.96785 7.69898 10.8333 10.0002 10.8333Z"
+																stroke="white" stroke-linecap="round"
+																stroke-linejoin="round" />
+															<path
+																d="M16.6668 17.4999C16.6668 15.7318 15.9645 14.0361 14.7142 12.7859C13.464 11.5356 11.7683 10.8333 10.0002 10.8333C8.23205 10.8333 6.53636 11.5356 5.28612 12.7859C4.03588 14.0361 3.3335 15.7318 3.3335 17.4999"
+																stroke="white" stroke-linecap="round"
+																stroke-linejoin="round" />
+														</svg>
+														<span>Войти в личный кабинет</span>
+													</a>
+												</li>
+												<li class="menu-item">
+													<a href="#">
+														<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+															xmlns="http://www.w3.org/2000/svg">
+															<path
+																d="M16.6665 14.1667H5.83317C5.39114 14.1667 4.96722 13.9776 4.65466 13.641C4.3421 13.3044 4.1665 12.8205 4.1665 12.3718L3.33317 4.29487C3.33317 3.81884 3.15758 3.36231 2.84502 3.02571C2.53245 2.6891 2.10853 2.5 1.6665 2.5"
+																stroke="white" stroke-linecap="round"
+																stroke-linejoin="round" />
+															<path
+																d="M3.43085 5H16.4099H17.4997L16.6663 10L4.16626 10.8333"
+																stroke="white" stroke-linecap="round"
+																stroke-linejoin="round" />
+															<path
+																d="M14.1667 17.5001C15.0871 17.5001 15.8333 16.7539 15.8333 15.8334C15.8333 14.9129 15.0871 14.1667 14.1667 14.1667C13.2462 14.1667 12.5 14.9129 12.5 15.8334C12.5 16.7539 13.2462 17.5001 14.1667 17.5001Z"
+																stroke="white" stroke-linecap="round"
+																stroke-linejoin="round" />
+															<path
+																d="M7.49967 17.5001C8.42015 17.5001 9.16634 16.7539 9.16634 15.8334C9.16634 14.9129 8.42015 14.1667 7.49967 14.1667C6.5792 14.1667 5.83301 14.9129 5.83301 15.8334C5.83301 16.7539 6.5792 17.5001 7.49967 17.5001Z"
+																stroke="white" stroke-linecap="round"
+																stroke-linejoin="round" />
+														</svg>
+														<span>Корзина</span>
+														<span class="badge">99+</span>
+													</a>
+												</li>
+												<li class="menu-item">
+													<a href="#">
+														<svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+															xmlns="http://www.w3.org/2000/svg">
+															<path
+																d="M15.8332 11.6667C17.0748 10.45 18.3332 8.99167 18.3332 7.08333C18.3332 5.86776 17.8503 4.70197 16.9907 3.84243C16.1312 2.98289 14.9654 2.5 13.7498 2.5C12.2832 2.5 11.2498 2.91667 9.99984 4.16667C8.74984 2.91667 7.7165 2.5 6.24984 2.5C5.03426 2.5 3.86847 2.98289 3.00893 3.84243C2.14939 4.70197 1.6665 5.86776 1.6665 7.08333C1.6665 9 2.9165 10.4583 4.1665 11.6667L9.99984 17.5L15.8332 11.6667Z"
+																stroke="white" stroke-linecap="round"
+																stroke-linejoin="round" />
+														</svg>
+														<span>Избранное</span>
+													</a>
+												</li>
+											</ul>
+										</div>
+
+										<div class="rs-header__search search">
+											<div class="search__block">
+												<div class="search__wrapper">
+													<form action="#" class="search__form">
+														<div class="search__line">
+															<button class="search__btn search__submit" type="submit">
+																<svg width="33" height="33" viewBox="0 0 33 33"
+																	fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path
+																		d="M15.1667 25.5354C21.0577 25.5354 25.8333 20.7597 25.8333 14.8687C25.8333 8.97766 21.0577 4.20203 15.1667 4.20203C9.27563 4.20203 4.5 8.97766 4.5 14.8687C4.5 20.7597 9.27563 25.5354 15.1667 25.5354Z"
+																		stroke="white" stroke-linecap="round"
+																		stroke-linejoin="round" />
+																	<path d="M28.4999 28.2021L22.7666 22.4688"
+																		stroke="white" stroke-linecap="round"
+																		stroke-linejoin="round" />
+																</svg>
+															</button>
+															<input type="text" placeholder="Искать"
+																class="search__input" required />
+															<button class="search__btn search__clear" type="button">
+																<svg width="14" height="14" viewBox="0 0 14 14"
+																	fill="none">
+																	<path
+																		d="M12.7342 1.2749C12.65 1.19052 12.55 1.12358 12.4399 1.0779C12.3298 1.03223 12.2117 1.00872 12.0925 1.00872C11.9733 1.00872 11.8553 1.03223 11.7452 1.0779C11.6351 1.12358 11.535 1.19052 11.4508 1.2749L7 5.71663L2.54916 1.26579C2.4649 1.18153 2.36486 1.11468 2.25476 1.06908C2.14466 1.02347 2.02665 1 1.90748 1C1.78831 1 1.6703 1.02347 1.5602 1.06908C1.4501 1.11468 1.35006 1.18153 1.26579 1.26579C1.18153 1.35006 1.11468 1.4501 1.06908 1.5602C1.02347 1.6703 1 1.78831 1 1.90748C1 2.02665 1.02347 2.14466 1.06908 2.25476C1.11468 2.36486 1.18153 2.4649 1.26579 2.54916L5.71663 7L1.26579 11.4508C1.18153 11.5351 1.11468 11.6351 1.06908 11.7452C1.02347 11.8553 1 11.9733 1 12.0925C1 12.2117 1.02347 12.3297 1.06908 12.4398C1.11468 12.5499 1.18153 12.6499 1.26579 12.7342C1.35006 12.8185 1.4501 12.8853 1.5602 12.9309C1.6703 12.9765 1.78831 13 1.90748 13C2.02665 13 2.14466 12.9765 2.25476 12.9309C2.36486 12.8853 2.4649 12.8185 2.54916 12.7342L7 8.28337L11.4508 12.7342C11.5351 12.8185 11.6351 12.8853 11.7452 12.9309C11.8553 12.9765 11.9733 13 12.0925 13C12.2117 13 12.3297 12.9765 12.4398 12.9309C12.5499 12.8853 12.6499 12.8185 12.7342 12.7342C12.8185 12.6499 12.8853 12.5499 12.9309 12.4398C12.9765 12.3297 13 12.2117 13 12.0925C13 11.9733 12.9765 11.8553 12.9309 11.7452C12.8853 11.6351 12.8185 11.5351 12.7342 11.4508L8.28337 7L12.7342 2.54916C13.0801 2.20329 13.0801 1.62077 12.7342 1.2749Z"
+																		fill="var(--icons-color-dark)" />
+																</svg>
+															</button>
+														</div>
+													</form>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+
+			<link rel="stylesheet" href="css/rs-slider.css">
+			<section class="rs-slider">
+				<div class="rs-slider__bg">
+					<picture>
+						<source srcset="./img/blocks/slider/slider.jpg" media="(min-width: 991.98px)">
+						<source srcset="./img/blocks/slider/slider_min.jpg" media="(min-width: 767.98px)">
+						<img src="./img/blocks/slider/slider_mobile.jpg" alt="">
+					</picture>
+				</div>
+				<div class="rs-slider__container">
+					<div class="rs-slider__content">
+						<div class="rs-slider__slider swiper">
+							<div class="rs-slider__swiper swiper-wrapper">
+								<div class="rs-slider__slide swiper-slide">
+									<div class="rs-slider__item">
+										<div class="rs-slider__body">
+											<h1>Radiolab – надёжный <br> поставщик антенн и аксессуаров для радиосвязи
+											</h1>
+											<h4>Официальный дистрибьютор ANLI и SRTechnology</h4>
+										</div>
+										<div class="rs-slider__btn">
+											<a href="#" class="rs-btn _btn-primary">Перейти в каталог</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="rs-slider__slide swiper-slide">
+									<div class="rs-slider__item">
+										<div class="rs-slider__body">
+											<h1>Radiolab – надёжный <br> поставщик антенн и аксессуаров для радиосвязи
+											</h1>
+											<h4>Официальный дистрибьютор ANLI и SRTechnology</h4>
+										</div>
+										<div class="rs-slider__btn">
+											<a href="#" class="rs-btn _btn-primary">Перейти в каталог</a>
+										</div>
+									</div>
+								</div>
+
+								<div class="rs-slider__slide swiper-slide">
+									<div class="rs-slider__item">
+										<div class="rs-slider__body">
+											<h1>Radiolab – надёжный <br> поставщик антенн и аксессуаров для радиосвязи
+											</h1>
+											<h4>Официальный дистрибьютор ANLI и SRTechnology</h4>
+										</div>
+										<div class="rs-slider__btn">
+											<a href="#" class="rs-btn _btn-primary">Перейти в каталог</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="rs-slider__action swiper-action">
+							<div class="rs-slider__pagination swiper-pagination"></div>
+
+							<div class="rs-slider__navigation swiper-navigation">
+								<div class="rs-slider__button-prev swiper-button-prev">
+									<svg width="12" height="22" viewBox="0 0 12 22" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M11 21L1.43478 11.9912C0.855071 11.4448 0.855072 10.5552 1.43478 10.0088L11 1"
+											stroke="white" stroke-width="2" />
+									</svg>
+								</div>
+
+								<div class="rs-slider__button-next swiper-button-next">
+									<svg width="12" height="22" viewBox="0 0 12 22" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M1 21L10.5652 11.9912C11.1449 11.4448 11.1449 10.5552 10.5652 10.0088L1 1"
+											stroke="white" stroke-width="2" />
+									</svg>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<link rel="stylesheet" href="css/rs-nav-catalog.css">
+			<section class="rs-nav-catalog">
+				<div class="rs-nav-catalog__container">
+					<h2>Каталог оборудования и аксессуаров <br> для радиосвязи</h2>
+
+					<div class="rs-nav-catalog__wrapper">
+						<div class="rs-nav-catalog__list">
+							<div class="rs-nav-catalog__block" data-aos="fade-right" data-aos-delay="50">
+								<a href="#" class="rs-nav-catalog__link">
+									<div class="rs-nav-catalog__item">
+										<div class="rs-nav-catalog__bg">
+											<img src="./img/blocks/catalog/kt_1.png" alt="">
+										</div>
+										<div class="rs-nav-catalog__desc">
+											<h4>Антенны</h4>
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<div class="rs-nav-catalog__block" data-aos="fade-right" data-aos-delay="100">
+								<a href="#" class="rs-nav-catalog__link">
+									<div class="rs-nav-catalog__item">
+										<div class="rs-nav-catalog__bg">
+											<img src="./img/blocks/catalog/kt_2.png" alt="">
+										</div>
+										<div class="rs-nav-catalog__desc">
+											<h4>ВЧ и СВЧ коннекторы</h4>
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<div class="rs-nav-catalog__block" data-aos="fade-right" data-aos-delay="150">
+								<a href="#" class="rs-nav-catalog__link">
+									<div class="rs-nav-catalog__item">
+										<div class="rs-nav-catalog__bg">
+											<img src="./img/blocks/catalog/kt_3.png" alt="">
+										</div>
+										<div class="rs-nav-catalog__desc">
+											<h4>ВЧ и СВЧ кабель</h4>
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<div class="rs-nav-catalog__block" data-aos="fade-right" data-aos-delay="200">
+								<a href="#" class="rs-nav-catalog__link">
+									<div class="rs-nav-catalog__item">
+										<div class="rs-nav-catalog__bg">
+											<img src="./img/blocks/catalog/kt_4.png" alt="">
+										</div>
+										<div class="rs-nav-catalog__desc">
+											<h4>ВЧ и СВЧ переходники</h4>
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<div class="rs-nav-catalog__block" data-aos="fade-right" data-aos-delay="250">
+								<a href="#" class="rs-nav-catalog__link">
+									<div class="rs-nav-catalog__item">
+										<div class="rs-nav-catalog__bg">
+											<img src="./img/blocks/catalog/kt_5.png" alt="">
+										</div>
+										<div class="rs-nav-catalog__desc">
+											<h4>Кабельные сборки</h4>
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<div class="rs-nav-catalog__block" data-aos="fade-right" data-aos-delay="300">
+								<a href="#" class="rs-nav-catalog__link">
+									<div class="rs-nav-catalog__item">
+										<div class="rs-nav-catalog__bg">
+											<img src="./img/blocks/catalog/kt_6.png" alt="">
+										</div>
+										<div class="rs-nav-catalog__desc">
+											<h4>СВЧ компоненты <br> SRTechnology</h4>
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<div class="rs-nav-catalog__block" data-aos="fade-right" data-aos-delay="350">
+								<a href="#" class="rs-nav-catalog__link">
+									<div class="rs-nav-catalog__item">
+										<div class="rs-nav-catalog__bg">
+											<img src="./img/blocks/catalog/kt_7.png" alt="">
+										</div>
+										<div class="rs-nav-catalog__desc">
+											<h4>Источники питания</h4>
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<div class="rs-nav-catalog__block" data-aos="fade-right" data-aos-delay="400">
+								<a href="#" class="rs-nav-catalog__link">
+									<div class="rs-nav-catalog__item">
+										<div class="rs-nav-catalog__bg">
+											<img src="./img/blocks/catalog/kt_8.png" alt="">
+										</div>
+										<div class="rs-nav-catalog__desc">
+											<h4>Термоусаживаемая трубка</h4>
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<div class="rs-nav-catalog__block" data-aos="fade-right" data-aos-delay="450">
+								<a href="#" class="rs-nav-catalog__link">
+									<div class="rs-nav-catalog__item">
+										<h4>В каталог</h4>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<link rel="stylesheet" href="css/rs-product-slider.css">
+			<section class="rs-product-slider _bg-block">
+				<div class="rs-product-slider__container">
+					<div class="rs-product-slider__wrapper">
+						<h2>Новое поступление</h2>
+
+						<div class="rs-product-slider__slider swiper">
+							<div class="rs-product-slider__swiper swiper-wrapper">
+								<div class="rs-product-slider__slide swiper-slide" data-aos="fade-right"
+									data-aos-delay="50">
+									<div class="rs-product-slider__item">
+										<div class="rs-product-slider__img">
+											<a href="#">
+												<img src="./img//blocks/product/product.png" alt="">
+											</a>
+											<div class="rs-product-slider__control">
+												<ul>
+													<li>
+														<a href="#">
+															<svg width="29" height="26" viewBox="0 0 29 26" fill="none"
+																xmlns="http://www.w3.org/2000/svg">
+																<path
+																	d="M23.6667 15.6667C25.6533 13.72 27.6667 11.3867 27.6667 8.33333C27.6667 6.38841 26.894 4.52315 25.5188 3.14788C24.1435 1.77262 22.2783 1 20.3333 1C17.9867 1 16.3333 1.66667 14.3333 3.66667C12.3333 1.66667 10.68 1 8.33333 1C6.38841 1 4.52315 1.77262 3.14788 3.14788C1.77262 4.52315 1 6.38841 1 8.33333C1 11.4 3 13.7333 5 15.6667L14.3333 25L23.6667 15.6667Z"
+																	stroke="#003264" stroke-linecap="round"
+																	stroke-linejoin="round" />
+															</svg>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="rs-product-slider__desc">
+											<div class="rs-product-slider__body">
+												<h5><a href="#">A-100MU-N</a></h5>
+												<p>Базовая антенна диапазона UHF</p>
+											</div>
+											<div class="rs-product-slider__footer">
+												<div class="rs-product-slider__row">
+													<div class="rs-product-slider__price">
+														15&nbsp;000&nbsp;₽
+													</div>
+													<div class="rs-product-slider__quantity">
+														На складе: 123&nbsp;шт.
+													</div>
+												</div>
+												<div class="rs-product-slider__row">
+													<a href="#" class="rs-btn _btn-primary">Подробнее</a>
+													<a href="#" class="rs-btn _btn-second">
+														<svg width="41" height="30" viewBox="0 0 41 30" fill="none"
+															xmlns="http://www.w3.org/2000/svg">
+															<path
+																d="M33.3056 22.7778H13.0834C12.2583 22.7778 11.4669 22.4248 10.8835 21.7965C10.3001 21.1682 9.97227 20.265 9.97227 19.4274L8.41672 4.35043C8.41672 3.46184 8.08894 2.60965 7.50549 1.98132C6.92205 1.35299 6.13072 1 5.3056 1"
+																stroke="white" stroke-width="2" stroke-linecap="round"
+																stroke-linejoin="round" />
+															<path
+																d="M8.59916 5.66669H32.8268H34.861L33.3053 15L9.97193 16.5556"
+																stroke="white" stroke-width="2" stroke-linecap="round"
+																stroke-linejoin="round" />
+															<path
+																d="M28.6391 29.0001C30.3573 29.0001 31.7502 27.6072 31.7502 25.8889C31.7502 24.1707 30.3573 22.7778 28.6391 22.7778C26.9209 22.7778 25.528 24.1707 25.528 25.8889C25.528 27.6072 26.9209 29.0001 28.6391 29.0001Z"
+																stroke="white" stroke-width="2" stroke-linecap="round"
+																stroke-linejoin="round" />
+															<path
+																d="M16.1944 29.0001C17.9126 29.0001 19.3055 27.6072 19.3055 25.8889C19.3055 24.1707 17.9126 22.7778 16.1944 22.7778C14.4762 22.7778 13.0833 24.1707 13.0833 25.8889C13.0833 27.6072 14.4762 29.0001 16.1944 29.0001Z"
+																stroke="white" stroke-width="2" stroke-linecap="round"
+																stroke-linejoin="round" />
+														</svg>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="rs-product-slider__slide swiper-slide" data-aos="fade-right"
+									data-aos-delay="100">
+									<div class="rs-product-slider__item">
+										<div class="rs-product-slider__img">
+											<a href="#">
+												<img src="./img//blocks/product/product.png" alt="">
+											</a>
+											<div class="rs-product-slider__control">
+												<ul>
+													<li>
+														<a href="#">
+															<svg width="29" height="26" viewBox="0 0 29 26" fill="none"
+																xmlns="http://www.w3.org/2000/svg">
+																<path
+																	d="M23.6667 15.6667C25.6533 13.72 27.6667 11.3867 27.6667 8.33333C27.6667 6.38841 26.894 4.52315 25.5188 3.14788C24.1435 1.77262 22.2783 1 20.3333 1C17.9867 1 16.3333 1.66667 14.3333 3.66667C12.3333 1.66667 10.68 1 8.33333 1C6.38841 1 4.52315 1.77262 3.14788 3.14788C1.77262 4.52315 1 6.38841 1 8.33333C1 11.4 3 13.7333 5 15.6667L14.3333 25L23.6667 15.6667Z"
+																	stroke="#003264" stroke-linecap="round"
+																	stroke-linejoin="round" />
+															</svg>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="rs-product-slider__desc">
+											<div class="rs-product-slider__body">
+												<h5><a href="#">RLL-26-2100S</a></h5>
+												<p>Оптимизированный СВЧ кабель серии Accuphase</p>
+											</div>
+											<div class="rs-product-slider__footer">
+												<div class="rs-product-slider__row">
+													<div class="rs-product-slider__price">
+														3&nbsp;500&nbsp;₽
+													</div>
+													<div class="rs-product-slider__quantity">
+														На складе: 12&nbsp;шт.
+													</div>
+												</div>
+												<div class="rs-product-slider__row">
+													<a href="#" class="rs-btn _btn-primary">Подробнее</a>
+													<a href="#" class="rs-btn _btn-second">
+														<svg width="41" height="30" viewBox="0 0 41 30" fill="none"
+															xmlns="http://www.w3.org/2000/svg">
+															<path
+																d="M33.3056 22.7778H13.0834C12.2583 22.7778 11.4669 22.4248 10.8835 21.7965C10.3001 21.1682 9.97227 20.265 9.97227 19.4274L8.41672 4.35043C8.41672 3.46184 8.08894 2.60965 7.50549 1.98132C6.92205 1.35299 6.13072 1 5.3056 1"
+																stroke="white" stroke-width="2" stroke-linecap="round"
+																stroke-linejoin="round" />
+															<path
+																d="M8.59916 5.66669H32.8268H34.861L33.3053 15L9.97193 16.5556"
+																stroke="white" stroke-width="2" stroke-linecap="round"
+																stroke-linejoin="round" />
+															<path
+																d="M28.6391 29.0001C30.3573 29.0001 31.7502 27.6072 31.7502 25.8889C31.7502 24.1707 30.3573 22.7778 28.6391 22.7778C26.9209 22.7778 25.528 24.1707 25.528 25.8889C25.528 27.6072 26.9209 29.0001 28.6391 29.0001Z"
+																stroke="white" stroke-width="2" stroke-linecap="round"
+																stroke-linejoin="round" />
+															<path
+																d="M16.1944 29.0001C17.9126 29.0001 19.3055 27.6072 19.3055 25.8889C19.3055 24.1707 17.9126 22.7778 16.1944 22.7778C14.4762 22.7778 13.0833 24.1707 13.0833 25.8889C13.0833 27.6072 14.4762 29.0001 16.1944 29.0001Z"
+																stroke="white" stroke-width="2" stroke-linecap="round"
+																stroke-linejoin="round" />
+														</svg>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="rs-product-slider__slide swiper-slide" data-aos="fade-right"
+									data-aos-delay="150">
+									<div class="rs-product-slider__item">
+										<div class="rs-product-slider__img">
+											<a href="#">
+												<img src="./img//blocks/product/product.png" alt="">
+											</a>
+											<div class="rs-product-slider__control">
+												<ul>
+													<li>
+														<a href="#">
+															<svg width="29" height="26" viewBox="0 0 29 26" fill="none"
+																xmlns="http://www.w3.org/2000/svg">
+																<path
+																	d="M23.6667 15.6667C25.6533 13.72 27.6667 11.3867 27.6667 8.33333C27.6667 6.38841 26.894 4.52315 25.5188 3.14788C24.1435 1.77262 22.2783 1 20.3333 1C17.9867 1 16.3333 1.66667 14.3333 3.66667C12.3333 1.66667 10.68 1 8.33333 1C6.38841 1 4.52315 1.77262 3.14788 3.14788C1.77262 4.52315 1 6.38841 1 8.33333C1 11.4 3 13.7333 5 15.6667L14.3333 25L23.6667 15.6667Z"
+																	stroke="#003264" stroke-linecap="round"
+																	stroke-linejoin="round" />
+															</svg>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="rs-product-slider__desc">
+											<div class="rs-product-slider__body">
+												<h5><a href="#">E01-A0518-01 (S-611T-5WQ-18GHz)</a></h5>
+												<p>Коаксиальный разъем SMA</p>
+											</div>
+											<div class="rs-product-slider__footer">
+												<div class="rs-product-slider__row">
+													<div class="rs-product-slider__price">
+														3&nbsp;500&nbsp;₽
+													</div>
+													<div class="rs-product-slider__quantity">
+														На складе: 46&nbsp;шт.
+													</div>
+												</div>
+												<div class="rs-product-slider__row">
+													<a href="#" class="rs-btn _btn-primary">Подробнее</a>
+													<a href="#" class="rs-btn _btn-second">
+														<svg width="41" height="30" viewBox="0 0 41 30" fill="none"
+															xmlns="http://www.w3.org/2000/svg">
+															<path
+																d="M33.3056 22.7778H13.0834C12.2583 22.7778 11.4669 22.4248 10.8835 21.7965C10.3001 21.1682 9.97227 20.265 9.97227 19.4274L8.41672 4.35043C8.41672 3.46184 8.08894 2.60965 7.50549 1.98132C6.92205 1.35299 6.13072 1 5.3056 1"
+																stroke="white" stroke-width="2" stroke-linecap="round"
+																stroke-linejoin="round" />
+															<path
+																d="M8.59916 5.66669H32.8268H34.861L33.3053 15L9.97193 16.5556"
+																stroke="white" stroke-width="2" stroke-linecap="round"
+																stroke-linejoin="round" />
+															<path
+																d="M28.6391 29.0001C30.3573 29.0001 31.7502 27.6072 31.7502 25.8889C31.7502 24.1707 30.3573 22.7778 28.6391 22.7778C26.9209 22.7778 25.528 24.1707 25.528 25.8889C25.528 27.6072 26.9209 29.0001 28.6391 29.0001Z"
+																stroke="white" stroke-width="2" stroke-linecap="round"
+																stroke-linejoin="round" />
+															<path
+																d="M16.1944 29.0001C17.9126 29.0001 19.3055 27.6072 19.3055 25.8889C19.3055 24.1707 17.9126 22.7778 16.1944 22.7778C14.4762 22.7778 13.0833 24.1707 13.0833 25.8889C13.0833 27.6072 14.4762 29.0001 16.1944 29.0001Z"
+																stroke="white" stroke-width="2" stroke-linecap="round"
+																stroke-linejoin="round" />
+														</svg>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="rs-product-slider__slide swiper-slide" data-aos="fade-right"
+									data-aos-delay="200">
+									<div class="rs-product-slider__item">
+										<div class="rs-product-slider__img">
+											<a href="#">
+												<img src="./img//blocks/product/product.png" alt="">
+											</a>
+											<div class="rs-product-slider__control">
+												<ul>
+													<li>
+														<a href="#">
+															<svg width="29" height="26" viewBox="0 0 29 26" fill="none"
+																xmlns="http://www.w3.org/2000/svg">
+																<path
+																	d="M23.6667 15.6667C25.6533 13.72 27.6667 11.3867 27.6667 8.33333C27.6667 6.38841 26.894 4.52315 25.5188 3.14788C24.1435 1.77262 22.2783 1 20.3333 1C17.9867 1 16.3333 1.66667 14.3333 3.66667C12.3333 1.66667 10.68 1 8.33333 1C6.38841 1 4.52315 1.77262 3.14788 3.14788C1.77262 4.52315 1 6.38841 1 8.33333C1 11.4 3 13.7333 5 15.6667L14.3333 25L23.6667 15.6667Z"
+																	stroke="#003264" stroke-linecap="round"
+																	stroke-linejoin="round" />
+															</svg>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="rs-product-slider__desc">
+											<div class="rs-product-slider__body">
+												<h5><a href="#">N-M111F</a></h5>
+												<p>СВЧ разъем серии N</p>
+											</div>
+											<div class="rs-product-slider__footer">
+												<div class="rs-product-slider__row">
+													<div class="rs-product-slider__price">
+														500&nbsp;₽
+													</div>
+													<div class="rs-product-slider__quantity">
+														На складе: 97&nbsp;шт.
+													</div>
+												</div>
+												<div class="rs-product-slider__row">
+													<a href="#" class="rs-btn _btn-primary">Подробнее</a>
+													<a href="#" class="rs-btn _btn-second">
+														<svg width="41" height="30" viewBox="0 0 41 30" fill="none"
+															xmlns="http://www.w3.org/2000/svg">
+															<path
+																d="M33.3056 22.7778H13.0834C12.2583 22.7778 11.4669 22.4248 10.8835 21.7965C10.3001 21.1682 9.97227 20.265 9.97227 19.4274L8.41672 4.35043C8.41672 3.46184 8.08894 2.60965 7.50549 1.98132C6.92205 1.35299 6.13072 1 5.3056 1"
+																stroke="white" stroke-width="2" stroke-linecap="round"
+																stroke-linejoin="round" />
+															<path
+																d="M8.59916 5.66669H32.8268H34.861L33.3053 15L9.97193 16.5556"
+																stroke="white" stroke-width="2" stroke-linecap="round"
+																stroke-linejoin="round" />
+															<path
+																d="M28.6391 29.0001C30.3573 29.0001 31.7502 27.6072 31.7502 25.8889C31.7502 24.1707 30.3573 22.7778 28.6391 22.7778C26.9209 22.7778 25.528 24.1707 25.528 25.8889C25.528 27.6072 26.9209 29.0001 28.6391 29.0001Z"
+																stroke="white" stroke-width="2" stroke-linecap="round"
+																stroke-linejoin="round" />
+															<path
+																d="M16.1944 29.0001C17.9126 29.0001 19.3055 27.6072 19.3055 25.8889C19.3055 24.1707 17.9126 22.7778 16.1944 22.7778C14.4762 22.7778 13.0833 24.1707 13.0833 25.8889C13.0833 27.6072 14.4762 29.0001 16.1944 29.0001Z"
+																stroke="white" stroke-width="2" stroke-linecap="round"
+																stroke-linejoin="round" />
+														</svg>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="rs-product-slider__slide swiper-slide" data-aos="fade-right"
+									data-aos-delay="250">
+									<div class="rs-product-slider__item">
+										<div class="rs-product-slider__img">
+											<a href="#">
+												<img src="./img//blocks/product/product.png" alt="">
+											</a>
+											<div class="rs-product-slider__control">
+												<ul>
+													<li>
+														<a href="#">
+															<svg width="29" height="26" viewBox="0 0 29 26" fill="none"
+																xmlns="http://www.w3.org/2000/svg">
+																<path
+																	d="M23.6667 15.6667C25.6533 13.72 27.6667 11.3867 27.6667 8.33333C27.6667 6.38841 26.894 4.52315 25.5188 3.14788C24.1435 1.77262 22.2783 1 20.3333 1C17.9867 1 16.3333 1.66667 14.3333 3.66667C12.3333 1.66667 10.68 1 8.33333 1C6.38841 1 4.52315 1.77262 3.14788 3.14788C1.77262 4.52315 1 6.38841 1 8.33333C1 11.4 3 13.7333 5 15.6667L14.3333 25L23.6667 15.6667Z"
+																	stroke="#003264" stroke-linecap="round"
+																	stroke-linejoin="round" />
+															</svg>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="rs-product-slider__desc">
+											<div class="rs-product-slider__body">
+												<h5><a href="#">A-100MU-N</a></h5>
+												<p>Базовая антенна диапазона UHF</p>
+											</div>
+											<div class="rs-product-slider__footer">
+												<div class="rs-product-slider__row">
+													<div class="rs-product-slider__price">
+														15&nbsp;000&nbsp;₽
+													</div>
+													<div class="rs-product-slider__quantity">
+														На складе: 123&nbsp;шт.
+													</div>
+												</div>
+												<div class="rs-product-slider__row">
+													<a href="#" class="rs-btn _btn-primary">Подробнее</a>
+													<a href="#" class="rs-btn _btn-second">
+														<svg width="41" height="30" viewBox="0 0 41 30" fill="none"
+															xmlns="http://www.w3.org/2000/svg">
+															<path
+																d="M33.3056 22.7778H13.0834C12.2583 22.7778 11.4669 22.4248 10.8835 21.7965C10.3001 21.1682 9.97227 20.265 9.97227 19.4274L8.41672 4.35043C8.41672 3.46184 8.08894 2.60965 7.50549 1.98132C6.92205 1.35299 6.13072 1 5.3056 1"
+																stroke="white" stroke-width="2" stroke-linecap="round"
+																stroke-linejoin="round" />
+															<path
+																d="M8.59916 5.66669H32.8268H34.861L33.3053 15L9.97193 16.5556"
+																stroke="white" stroke-width="2" stroke-linecap="round"
+																stroke-linejoin="round" />
+															<path
+																d="M28.6391 29.0001C30.3573 29.0001 31.7502 27.6072 31.7502 25.8889C31.7502 24.1707 30.3573 22.7778 28.6391 22.7778C26.9209 22.7778 25.528 24.1707 25.528 25.8889C25.528 27.6072 26.9209 29.0001 28.6391 29.0001Z"
+																stroke="white" stroke-width="2" stroke-linecap="round"
+																stroke-linejoin="round" />
+															<path
+																d="M16.1944 29.0001C17.9126 29.0001 19.3055 27.6072 19.3055 25.8889C19.3055 24.1707 17.9126 22.7778 16.1944 22.7778C14.4762 22.7778 13.0833 24.1707 13.0833 25.8889C13.0833 27.6072 14.4762 29.0001 16.1944 29.0001Z"
+																stroke="white" stroke-width="2" stroke-linecap="round"
+																stroke-linejoin="round" />
+														</svg>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="rs-product-slider__slide swiper-slide" data-aos="fade-right"
+									data-aos-delay="300">
+									<div class="rs-product-slider__item">
+										<div class="rs-product-slider__img">
+											<a href="#">
+												<img src="./img//blocks/product/product.png" alt="">
+											</a>
+											<div class="rs-product-slider__control">
+												<ul>
+													<li>
+														<a href="#">
+															<svg width="29" height="26" viewBox="0 0 29 26" fill="none"
+																xmlns="http://www.w3.org/2000/svg">
+																<path
+																	d="M23.6667 15.6667C25.6533 13.72 27.6667 11.3867 27.6667 8.33333C27.6667 6.38841 26.894 4.52315 25.5188 3.14788C24.1435 1.77262 22.2783 1 20.3333 1C17.9867 1 16.3333 1.66667 14.3333 3.66667C12.3333 1.66667 10.68 1 8.33333 1C6.38841 1 4.52315 1.77262 3.14788 3.14788C1.77262 4.52315 1 6.38841 1 8.33333C1 11.4 3 13.7333 5 15.6667L14.3333 25L23.6667 15.6667Z"
+																	stroke="#003264" stroke-linecap="round"
+																	stroke-linejoin="round" />
+															</svg>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="rs-product-slider__desc">
+											<div class="rs-product-slider__body">
+												<h5><a href="#">RLL-26-2100S</a></h5>
+												<p>Оптимизированный СВЧ кабель серии Accuphase</p>
+											</div>
+											<div class="rs-product-slider__footer">
+												<div class="rs-product-slider__row">
+													<div class="rs-product-slider__price">
+														3&nbsp;500&nbsp;₽
+													</div>
+													<div class="rs-product-slider__quantity">
+														На складе: 12&nbsp;шт.
+													</div>
+												</div>
+												<div class="rs-product-slider__row">
+													<a href="#" class="rs-btn _btn-primary">Подробнее</a>
+													<a href="#" class="rs-btn _btn-second">
+														<svg width="41" height="30" viewBox="0 0 41 30" fill="none"
+															xmlns="http://www.w3.org/2000/svg">
+															<path
+																d="M33.3056 22.7778H13.0834C12.2583 22.7778 11.4669 22.4248 10.8835 21.7965C10.3001 21.1682 9.97227 20.265 9.97227 19.4274L8.41672 4.35043C8.41672 3.46184 8.08894 2.60965 7.50549 1.98132C6.92205 1.35299 6.13072 1 5.3056 1"
+																stroke="white" stroke-width="2" stroke-linecap="round"
+																stroke-linejoin="round" />
+															<path
+																d="M8.59916 5.66669H32.8268H34.861L33.3053 15L9.97193 16.5556"
+																stroke="white" stroke-width="2" stroke-linecap="round"
+																stroke-linejoin="round" />
+															<path
+																d="M28.6391 29.0001C30.3573 29.0001 31.7502 27.6072 31.7502 25.8889C31.7502 24.1707 30.3573 22.7778 28.6391 22.7778C26.9209 22.7778 25.528 24.1707 25.528 25.8889C25.528 27.6072 26.9209 29.0001 28.6391 29.0001Z"
+																stroke="white" stroke-width="2" stroke-linecap="round"
+																stroke-linejoin="round" />
+															<path
+																d="M16.1944 29.0001C17.9126 29.0001 19.3055 27.6072 19.3055 25.8889C19.3055 24.1707 17.9126 22.7778 16.1944 22.7778C14.4762 22.7778 13.0833 24.1707 13.0833 25.8889C13.0833 27.6072 14.4762 29.0001 16.1944 29.0001Z"
+																stroke="white" stroke-width="2" stroke-linecap="round"
+																stroke-linejoin="round" />
+														</svg>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="rs-product-slider__slide swiper-slide" data-aos="fade-right"
+									data-aos-delay="350">
+									<div class="rs-product-slider__item">
+										<div class="rs-product-slider__img">
+											<a href="#">
+												<img src="./img//blocks/product/product.png" alt="">
+											</a>
+											<div class="rs-product-slider__control">
+												<ul>
+													<li>
+														<a href="#">
+															<svg width="29" height="26" viewBox="0 0 29 26" fill="none"
+																xmlns="http://www.w3.org/2000/svg">
+																<path
+																	d="M23.6667 15.6667C25.6533 13.72 27.6667 11.3867 27.6667 8.33333C27.6667 6.38841 26.894 4.52315 25.5188 3.14788C24.1435 1.77262 22.2783 1 20.3333 1C17.9867 1 16.3333 1.66667 14.3333 3.66667C12.3333 1.66667 10.68 1 8.33333 1C6.38841 1 4.52315 1.77262 3.14788 3.14788C1.77262 4.52315 1 6.38841 1 8.33333C1 11.4 3 13.7333 5 15.6667L14.3333 25L23.6667 15.6667Z"
+																	stroke="#003264" stroke-linecap="round"
+																	stroke-linejoin="round" />
+															</svg>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="rs-product-slider__desc">
+											<div class="rs-product-slider__body">
+												<h5><a href="#">E01-A0518-01 (S-611T-5WQ-18GHz)</a></h5>
+												<p>Коаксиальный разъем SMA</p>
+											</div>
+											<div class="rs-product-slider__footer">
+												<div class="rs-product-slider__row">
+													<div class="rs-product-slider__price">
+														3&nbsp;500&nbsp;₽
+													</div>
+													<div class="rs-product-slider__quantity">
+														На складе: 46&nbsp;шт.
+													</div>
+												</div>
+												<div class="rs-product-slider__row">
+													<a href="#" class="rs-btn _btn-primary">Подробнее</a>
+													<a href="#" class="rs-btn _btn-second">
+														<svg width="41" height="30" viewBox="0 0 41 30" fill="none"
+															xmlns="http://www.w3.org/2000/svg">
+															<path
+																d="M33.3056 22.7778H13.0834C12.2583 22.7778 11.4669 22.4248 10.8835 21.7965C10.3001 21.1682 9.97227 20.265 9.97227 19.4274L8.41672 4.35043C8.41672 3.46184 8.08894 2.60965 7.50549 1.98132C6.92205 1.35299 6.13072 1 5.3056 1"
+																stroke="white" stroke-width="2" stroke-linecap="round"
+																stroke-linejoin="round" />
+															<path
+																d="M8.59916 5.66669H32.8268H34.861L33.3053 15L9.97193 16.5556"
+																stroke="white" stroke-width="2" stroke-linecap="round"
+																stroke-linejoin="round" />
+															<path
+																d="M28.6391 29.0001C30.3573 29.0001 31.7502 27.6072 31.7502 25.8889C31.7502 24.1707 30.3573 22.7778 28.6391 22.7778C26.9209 22.7778 25.528 24.1707 25.528 25.8889C25.528 27.6072 26.9209 29.0001 28.6391 29.0001Z"
+																stroke="white" stroke-width="2" stroke-linecap="round"
+																stroke-linejoin="round" />
+															<path
+																d="M16.1944 29.0001C17.9126 29.0001 19.3055 27.6072 19.3055 25.8889C19.3055 24.1707 17.9126 22.7778 16.1944 22.7778C14.4762 22.7778 13.0833 24.1707 13.0833 25.8889C13.0833 27.6072 14.4762 29.0001 16.1944 29.0001Z"
+																stroke="white" stroke-width="2" stroke-linecap="round"
+																stroke-linejoin="round" />
+														</svg>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="rs-product-slider__slide swiper-slide" data-aos="fade-right"
+									data-aos-delay="400">
+									<div class="rs-product-slider__item">
+										<div class="rs-product-slider__img">
+											<a href="#">
+												<img src="./img//blocks/product/product.png" alt="">
+											</a>
+											<div class="rs-product-slider__control">
+												<ul>
+													<li>
+														<a href="#">
+															<svg width="29" height="26" viewBox="0 0 29 26" fill="none"
+																xmlns="http://www.w3.org/2000/svg">
+																<path
+																	d="M23.6667 15.6667C25.6533 13.72 27.6667 11.3867 27.6667 8.33333C27.6667 6.38841 26.894 4.52315 25.5188 3.14788C24.1435 1.77262 22.2783 1 20.3333 1C17.9867 1 16.3333 1.66667 14.3333 3.66667C12.3333 1.66667 10.68 1 8.33333 1C6.38841 1 4.52315 1.77262 3.14788 3.14788C1.77262 4.52315 1 6.38841 1 8.33333C1 11.4 3 13.7333 5 15.6667L14.3333 25L23.6667 15.6667Z"
+																	stroke="#003264" stroke-linecap="round"
+																	stroke-linejoin="round" />
+															</svg>
+														</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+										<div class="rs-product-slider__desc">
+											<div class="rs-product-slider__body">
+												<h5><a href="#">N-M111F</a></h5>
+												<p>СВЧ разъем серии N</p>
+											</div>
+											<div class="rs-product-slider__footer">
+												<div class="rs-product-slider__row">
+													<div class="rs-product-slider__price">
+														500&nbsp;₽
+													</div>
+													<div class="rs-product-slider__quantity">
+														На складе: 97&nbsp;шт.
+													</div>
+												</div>
+												<div class="rs-product-slider__row">
+													<a href="#" class="rs-btn _btn-primary">Подробнее</a>
+													<a href="#" class="rs-btn _btn-second">
+														<svg width="41" height="30" viewBox="0 0 41 30" fill="none"
+															xmlns="http://www.w3.org/2000/svg">
+															<path
+																d="M33.3056 22.7778H13.0834C12.2583 22.7778 11.4669 22.4248 10.8835 21.7965C10.3001 21.1682 9.97227 20.265 9.97227 19.4274L8.41672 4.35043C8.41672 3.46184 8.08894 2.60965 7.50549 1.98132C6.92205 1.35299 6.13072 1 5.3056 1"
+																stroke="white" stroke-width="2" stroke-linecap="round"
+																stroke-linejoin="round" />
+															<path
+																d="M8.59916 5.66669H32.8268H34.861L33.3053 15L9.97193 16.5556"
+																stroke="white" stroke-width="2" stroke-linecap="round"
+																stroke-linejoin="round" />
+															<path
+																d="M28.6391 29.0001C30.3573 29.0001 31.7502 27.6072 31.7502 25.8889C31.7502 24.1707 30.3573 22.7778 28.6391 22.7778C26.9209 22.7778 25.528 24.1707 25.528 25.8889C25.528 27.6072 26.9209 29.0001 28.6391 29.0001Z"
+																stroke="white" stroke-width="2" stroke-linecap="round"
+																stroke-linejoin="round" />
+															<path
+																d="M16.1944 29.0001C17.9126 29.0001 19.3055 27.6072 19.3055 25.8889C19.3055 24.1707 17.9126 22.7778 16.1944 22.7778C14.4762 22.7778 13.0833 24.1707 13.0833 25.8889C13.0833 27.6072 14.4762 29.0001 16.1944 29.0001Z"
+																stroke="white" stroke-width="2" stroke-linecap="round"
+																stroke-linejoin="round" />
+														</svg>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="rs-product-slider__action swiper-action">
+							<div class="rs-product-slider__navigation swiper-navigation">
+								<div class="rs-product-slider__button-prev swiper-button-prev">
+									<svg width="12" height="22" viewBox="0 0 12 22" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M11 21L1.43478 11.9912C0.855071 11.4448 0.855072 10.5552 1.43478 10.0088L11 1"
+											stroke="white" stroke-width="2" />
+									</svg>
+								</div>
+
+								<div class="rs-product-slider__button-next swiper-button-next">
+									<svg width="12" height="22" viewBox="0 0 12 22" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path
+											d="M1 21L10.5652 11.9912C11.1449 11.4448 11.1449 10.5552 10.5652 10.0088L1 1"
+											stroke="white" stroke-width="2" />
+									</svg>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<link rel="stylesheet" href="css/rs-text-block.css">
+			<section class="rs-text-block">
+				<div class="rs-text-block__bg">
+					<img src="./img/blocks/about/bg_line.png" alt="">
+				</div>
+
+				<div class="rs-text-block__block">
+					<div class="rs-text-block__content">
+						<div class="rs-text-block__container">
+							<div class="rs-text-block__desc" data-aos="fade" data-aos-delay="100">
+								<h2>О компании Radiolab</h2>
+								<h4>Radiolab – один из крупнейших поставщиков антенн <br> и аксессуаров для радиосвязи в
+									России. <br> Мы официальные дистрибьюторы компаний ANLI (США) и SRTechnology (Южная
+									Корея). </h4>
+								<p>Наша продукция включает антенны, коаксиальный кабель, кабельные сборки, ВЧ
+									коннекторы, СВЧ компоненты, грозозащиту, блоки питания и герметизирующие материалы.
+								</p>
+								<p>Поставка возможна со склада в России или напрямую из-за рубежа через наших дилеров.
+									Работа по расширению дилерской сети продолжается, и все заинтересованные организации
+									могут обратиться к нам для подписания дилерского договора.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="rs-text-block__img" data-aos="fade" data-aos-delay="200">
+						<img src="./img/blocks/about/about_img.jpg" alt="">
+					</div>
+				</div>
+			</section>
+
+			<link rel="stylesheet" href="css/rs-features.css">
+			<section class="rs-features">
+				<div class="rs-features__container">
+					<h2>Наши преимущества</h2>
+
+					<div class="rs-features__list" data-aos="fade" data-aos-delay="100">
+						<div class="rs-features__item">
+							<div class="rs-features__img">
+								<img src="./img/blocks/features/benefit_1.svg" alt="">
+							</div>
+							<div class="rs-features__desc">
+								<h4>Прямые поставки</h4>
+								<p>Экономия затрат, контроль качества: продукция поступает без посредников от
+									производителя</p>
+							</div>
+						</div>
+
+						<div class="rs-features__item">
+							<div class="rs-features__img">
+								<img src="./img/blocks/features/benefit_2.svg" alt="">
+							</div>
+							<div class="rs-features__desc">
+								<h4>Оригинальная продукция</h4>
+								<p>Гарантированное качество: предлагаем только оригинальные товары без компромиссов</p>
+							</div>
+						</div>
+
+						<div class="rs-features__item">
+							<div class="rs-features__img">
+								<img src="./img/blocks/features/benefit_3.svg" alt="">
+							</div>
+							<div class="rs-features__desc">
+								<h4>Опыт работы с заводами</h4>
+								<p>Доступ к высококачественному оборудованию: наш опыт обеспечивает доступ к лучшему
+									оборудованию на рынке</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<link rel="stylesheet" href="css/rs-form.css">
+			<section class="rs-form">
+				<div class="rs-form__container">
+					<div class="rs-form__wrapper">
+						<div class="rs-form__desc" data-aos="fade" data-aos-delay="100">
+							<div class="rs-form__bg">
+								<img src="./img/blocks/form/form_img.jpg" alt="">
+							</div>
+							<div class="rs-form__body">
+								<h2>Необходима консультация? <br>
+									Свяжитесь с нами</h2>
+								<p>Для обратной связи оставьте контактные данные.</p>
+							</div>
+						</div>
+
+						<div class="rs-form__request" data-aos="fade" data-aos-delay="200">
+							<div class="form">
+								<form action="#" class="form__form">
+									<div class="form__wrapper">
+										<div class="form__block">
+											<div class="form__line">
+												<input autocomplete="off" type="text" name="form[]"
+													placeholder="Ваше имя" class="rs-input" required>
+											</div>
+											<div class="form__line">
+												<input autocomplete="off" type="email" name="form[]"
+													placeholder="E-mail" class="rs-input" required>
+											</div>
+											<div class="form__line">
+												<input autocomplete="off" type="tel" name="form[]" placeholder="Телефон"
+													class="rs-input" required>
+											</div>
+										</div>
+										<div class="form__footer">
+											<div class="form__agreement">
+												Нажимая «Оставить заявку», вы соглашаетесь на обработку персональных
+												данных в соответствии с <a href="#">пользовательским соглашением</a>
+											</div>
+											<div class="form__button">
+												<button type="submit" class="rs-btn _btn-primary">Оставить
+													заявку</button>
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</main>
+
+		<link rel="stylesheet" href="css/rs-footer.css" />
+		<footer>
+			<div class="rs-footer">
+				<div class="rs-footer__bg">
+					<img src="./img/footer/footer_bg.jpg" alt="">
+				</div>
+				<div class="rs-footer__container">
+					<div class="rs-footer__top">
+						<div class="rs-footer__logo">
+							<a href="#">
+								<img src="./img/footer/footer_logo.svg" alt="">
+							</a>
+						</div>
+
+						<div class="rs-footer__spollers">
+							<div class="rs-footer__spollers_item">
+								<h6 class="rs-footer__spollers_title">Информация</h6>
+								<div class="rs-footer__spollers_body">
+									<ul>
+										<li><a href="tel:79166809903">+7 (916) 680-99-03</a></li>
+										<li><a href="tel:74957302002">+7 (495) 730-20-02</a></li>
+										<li><a href="mailto:shop@radiolab.ru">shop@radiolab.ru</a></li>
+										<li>Офис: с 10:00 до 18:00</li>
+										<li>Отгрузка со склада: Пн-Пт: с 09:00 до 16:00</li>
+										<li>121471, г. Москва, уд. Рябиновая, д. <br> 69, стр. 5, этаж 6</li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="rs-footer__spollers_item">
+								<h6 class="rs-footer__spollers_title">Каталог</h6>
+								<div class="rs-footer__spollers_body">
+									<ul>
+										<li><a href="#">Антенны</a></li>
+										<li><a href="#">ВЧ и СВЧ коннекторы</a></li>
+										<li><a href="#">ВЧ и СВЧ кабель</a></li>
+										<li><a href="#">Кабельные сборки</a></li>
+										<li><a href="#">СВЧ компоненты SRTechnology</a></li>
+										<li><a href="#">Источники питания</a></li>
+										<li><a href="#">Термоусаживаемая трубка</a></li>
+									</ul>
+								</div>
+							</div>
+
+							<div class="rs-footer__spollers_item">
+								<h6 class="rs-footer__spollers_title">Информация</h6>
+								<div class="rs-footer__spollers_body">
+									<ul>
+										<li><a href="#">Главная</a></li>
+										<li><a href="#">Производство</a></li>
+										<li><a href="#">О компании</a></li>
+										<li><a href="#">Доставка</a></li>
+										<li><a href="#">Контакты</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="rs-footer__bottom">
+						<div class="rs-footer__copyright">© Radiolab 2024. Все права защищены.</div>
+						<div class="rs-footer__dev">
+							<a href="#">
+								Разработано в
+								<svg width="68" height="13" viewBox="0 0 68 13" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M67.9991 4.28986C67.995 4.53662 67.7752 4.73741 67.5057 4.73741H65.9794C65.8222 4.77253 65.6625 4.80686 65.5013 4.84138C65.3897 4.9245 65.3167 5.04995 65.3167 5.19232V11.8353C65.3167 12.0855 65.4138 12.2902 65.1421 12.2902H63.1382C62.8663 12.2902 62.6441 12.0855 62.6441 11.8353V5.44075V5.19235C62.6441 5.14474 62.6339 5.10024 62.6192 5.05691C62.5556 4.87285 62.4264 4.73741 62.2059 4.73741H60.4467C60.1749 4.73741 59.9526 4.53294 59.9526 4.2829V3.0154C59.9526 2.766 60.1749 2.56071 60.4467 2.56071H67.5057C67.5758 2.56071 67.6426 2.5752 67.7031 2.59972C67.8775 2.66999 68 2.83013 68 3.0154V4.2829L67.9991 4.28986ZM58.1349 12.288H56.4505C56.1786 12.288 55.9565 12.0835 55.9565 11.8339V10.1462C55.9565 9.89634 55.8304 9.8332 55.6763 10.0062C55.6763 10.0062 55.6763 10.0062 55.4859 10.1895C55.2959 10.3731 55.0868 10.5563 54.8585 10.7408C54.7712 10.8119 54.6815 10.883 54.5897 10.9551H54.59L54.5894 10.9559C54.5118 11.0178 54.433 11.0787 54.3525 11.1406C54.2892 11.1896 54.2254 11.236 54.1617 11.2831C53.5573 11.6921 52.5124 12.3325 50.8919 12.288H50.1457C49.8739 12.288 49.6517 12.0835 49.6517 11.8339V8.0401V6.91069V3.01337C49.6517 2.76354 49.8739 2.55946 50.1457 2.55946H51.8862C52.1578 2.55946 52.3802 2.76354 52.3802 3.01337V6.67842V7.5807V9.0674C52.3802 9.31641 52.5363 9.42898 52.727 9.31538C52.727 9.31538 52.8389 9.31538 53.0193 9.19303C53.2001 9.07108 53.3853 8.93606 53.5757 8.78673C53.8796 8.55939 54.1794 8.30852 54.4736 8.03296C54.7686 7.75779 55.0442 7.4798 55.3009 7.20074C55.3535 7.14007 55.4046 7.08103 55.455 7.022C55.5222 6.94334 55.5874 6.8645 55.6499 6.7877C55.7595 6.65225 55.8615 6.51845 55.9565 6.38733V6.34568V3.01337C55.9565 2.76354 56.1786 2.55946 56.4505 2.55946H58.1349C58.4067 2.55946 58.6291 2.76354 58.6291 3.01337V5.99063V6.19389V11.8338C58.629 12.0835 58.4067 12.288 58.1349 12.288ZM55.8618 1.61246C55.3827 1.88556 54.8402 2.02182 54.2341 2.02182C53.64 2.02182 53.1035 1.88556 52.6245 1.61246C52.41 1.48947 52.2355 1.34671 52.0974 1.18389C51.6574 0.622988 52.2457 0.5 52.2457 0.5H56.0769C56.4237 0.5 56.6016 0.741657 56.4721 1.03746C56.4721 1.03746 56.3405 1.33875 55.8618 1.61246ZM47.8233 12.2902H46.0801C45.5631 12.2902 45.4146 11.9842 45.3714 11.8447C45.3674 11.8239 45.3632 11.8026 45.3587 11.7797C45.3491 11.7338 45.3384 11.6774 45.3269 11.6165H42.5004V9.42323H44.7626C44.672 9.12418 44.5804 8.82717 44.4992 8.56753H44.4995C44.468 8.46417 44.4371 8.36142 44.4101 8.27073C44.4085 8.24132 44.4048 8.2117 44.3954 8.18025C44.3954 8.18025 44.3843 8.14164 44.3215 7.967C44.3139 7.94556 44.3056 7.9235 44.2965 7.89794C44.2107 7.662 44.1255 7.43444 44.0398 7.2163L44.0332 7.19995C43.8832 6.83103 43.7407 6.51481 43.6052 6.25192C43.4672 5.98574 43.379 5.81272 43.3412 5.73409C43.0932 6.22065 42.8666 6.73095 42.6546 7.25756C42.6228 7.33579 42.5882 7.41177 42.5572 7.49083C42.3922 7.9159 42.2432 8.69237 42.1012 9.11705C42.0459 9.12111 41.9906 9.125 41.9353 9.12889H41.5746H41.4124H39.1067C39.2568 8.64844 39.4185 7.82296 39.5873 7.35499C39.8353 6.66742 40.1013 5.99249 40.3899 5.33515C40.8095 4.37812 41.2393 3.55718 41.6801 2.87221C41.7357 2.79112 41.9329 2.56071 42.3834 2.56071H44.2584C44.5305 2.56071 44.866 2.73741 45.0043 2.95148C45.0043 2.95148 45.4964 3.71792 45.8148 4.32523C46.133 4.93192 46.4207 5.54229 46.6773 6.15409C46.8028 6.45335 46.9195 6.74994 47.0312 7.04574C47.1847 7.45246 47.327 7.85608 47.4569 8.25706C47.5828 8.64437 47.7013 9.03064 47.8035 9.41285L47.8065 9.42327H47.8233V9.48762C48.0463 10.3231 48.2274 11.0944 48.3672 11.8016C48.386 11.9567 48.3644 12.2902 47.8233 12.2902ZM38.3253 4.55318C38.3253 4.55318 38.3253 4.55318 38.0861 4.52273C37.8466 4.49372 37.5915 4.48394 37.3208 4.49436C36.2767 4.53419 35.4843 4.82792 34.9437 5.37723C34.4149 5.91386 34.1656 6.60122 34.1914 7.43387C34.1923 7.45185 34.191 7.46963 34.1917 7.48719C34.2286 8.30999 34.4383 8.91872 34.8205 9.31216C35.2025 9.70561 35.6163 9.97543 36.0618 10.1217C36.2984 10.1895 36.5294 10.2863 36.7546 10.3074C36.9361 10.3255 37.0982 10.3329 37.2422 10.3323H41.1798V11.8308V12.3568V12.3942H38.4244L27.9569 12.4083H27.9571H27.8089H27.8076L27.6029 12.4087C27.4429 12.4045 27.2559 12.391 27.1397 12.3828C25.812 12.2809 24.8064 11.9259 24.1251 11.2115C23.2671 10.3131 22.766 9.30274 22.6224 8.18314C22.6092 8.09817 22.5982 8.01033 22.5897 7.92046C22.5806 7.82996 22.5744 7.74234 22.5705 7.65714C22.5635 7.50375 22.5636 7.35442 22.5682 7.20652C22.6061 5.94841 23.0556 4.88638 23.9195 4.02332C24.8848 3.05834 26.2768 2.54154 28.0951 2.47188C28.4679 2.45756 28.8161 2.46392 29.1396 2.49047C29.4631 2.51581 29.771 2.55871 30.063 2.6161L30.1364 4.2411C30.1478 4.48665 29.975 4.65004 29.7535 4.60471C29.7535 4.60471 29.7535 4.60471 29.5141 4.57552C29.2746 4.54693 29.0194 4.53712 28.7492 4.54711C27.7048 4.58694 26.9124 4.88171 26.3721 5.4308C25.8789 5.93107 25.63 6.56267 25.619 7.32034C25.6182 7.39368 25.6163 7.46538 25.6198 7.54054C25.657 8.36334 25.8666 8.97229 26.2486 9.36613C26.6305 9.75875 27.0444 10.0284 27.49 10.1744C27.7266 10.2429 27.9577 10.2878 28.1827 10.3099C28.3645 10.3268 28.5263 10.3344 28.6706 10.3336L32.0309 10.3268C31.5767 9.64826 31.2951 8.91736 31.1942 8.12968C31.1808 8.04509 31.1698 7.95705 31.1613 7.86657C31.1524 7.77688 31.1462 7.68887 31.1423 7.60347C31.1394 7.54401 31.1392 7.48558 31.138 7.42819C31.1153 6.04834 31.5656 4.89541 32.4913 3.96986C33.4566 3.00569 34.8487 2.48744 36.6668 2.41881C37.0396 2.40492 37.3879 2.41085 37.7114 2.43679C38.035 2.46374 38.3423 2.50564 38.6348 2.56281L38.7081 4.18821C38.7192 4.43287 38.5471 4.59711 38.3253 4.55318ZM19.8937 11.2078C18.8334 12.0698 17.5342 12.5 15.9943 12.5C14.4354 12.5 13.1307 12.0698 12.0807 11.2078C11.0302 10.347 10.5053 9.0866 10.5053 7.42544C10.5053 7.1274 10.5228 6.84266 10.5562 6.56974C10.5668 6.48558 10.583 6.40385 10.5966 6.32112C10.7851 5.18882 11.2765 4.28904 12.0807 3.62963C13.1307 2.76843 14.4354 2.33861 15.9943 2.33861C17.5342 2.33861 18.8334 2.76839 19.8937 3.62963C20.8953 4.44386 21.4231 5.61985 21.4778 7.15641C21.4809 7.24485 21.4833 7.33393 21.4833 7.42544C21.4833 7.76475 21.4601 8.08585 21.4158 8.39104C21.244 9.58298 20.7374 10.5231 19.8937 11.2078ZM18.3656 6.98217C18.3071 6.39489 18.131 5.86929 17.8335 5.40621C17.4629 4.82956 16.8498 4.5409 15.9943 4.5409C15.1197 4.5409 14.5019 4.82953 14.1409 5.40621C13.9111 5.7741 13.7572 6.1804 13.6739 6.62492C13.6377 6.81918 13.6136 7.01979 13.6049 7.22815C13.6021 7.29371 13.5992 7.35867 13.5992 7.42548C13.5992 8.19517 13.7822 8.86786 14.1481 9.4445C14.5136 10.0222 15.1293 10.3102 15.9944 10.3102C16.8498 10.3102 17.463 10.0222 17.8336 9.4445C18.1064 9.01983 18.2782 8.54265 18.3499 8.01337C18.3758 7.82399 18.3895 7.62852 18.3895 7.42548C18.3894 7.27326 18.3802 7.12622 18.3656 6.98217ZM4.96693 10.0874C4.91986 10.0874 4.87315 10.0863 4.82636 10.0847C4.48934 10.0778 4.48208 9.72678 4.48208 9.72678V8.14653C4.48208 7.95105 4.62378 7.90244 4.69692 7.88974L4.71087 7.8877C4.7273 7.88585 4.73927 7.88524 4.73927 7.88524L4.73768 7.88442C5.09556 7.83702 5.40107 7.71775 5.65146 7.52409C5.98392 7.26652 6.15031 6.87082 6.15031 6.33707C6.15031 6.27622 6.14315 6.17386 6.12895 6.02903C6.1213 5.94977 6.10005 5.86807 6.06818 5.78206C6.04176 5.71139 6.0079 5.63844 5.96501 5.56371C5.93522 5.51017 5.90151 5.45974 5.86506 5.41295C5.85592 5.40132 5.84406 5.38965 5.83404 5.37783C5.805 5.34411 5.77549 5.3102 5.74337 5.27936L5.72708 5.26159L5.72003 5.25913C5.27357 4.8514 4.56991 4.76275 4.28169 4.74376L4.27624 4.74112C4.26019 4.7403 4.24287 4.74052 4.22658 4.7403C4.18061 4.73766 4.15246 4.73766 4.15246 4.73766L4.15345 4.73827C4.12986 4.73805 4.10737 4.73745 4.08315 4.73745H3.22284C2.95095 4.73745 2.72871 4.94131 2.72871 5.19235V5.24546V11.8353C2.72871 12.0855 2.50647 12.2902 2.23468 12.2902H0.493885C0.222098 12.2902 0 12.0855 0 11.8353V4.63284V3.0154C0 2.85954 0.0864874 2.72185 0.21767 2.63912C0.296614 2.5903 0.391849 2.56067 0.493885 2.56067H4.14488C4.41652 2.56067 4.85916 2.58908 5.12847 2.62256C5.12847 2.62256 5.62731 2.68609 6.2256 2.82417H6.22486L6.2267 2.82457C6.40708 2.86664 6.59659 2.91525 6.78409 2.97122C7.41992 3.1951 8.44073 3.73602 8.99465 4.99067C9.10646 5.27237 9.18094 5.56428 9.21554 5.86536C9.22482 5.9442 9.23208 6.02468 9.23679 6.10762C9.23853 6.13764 9.23853 6.16501 9.23938 6.19364C9.24037 6.22836 9.24196 6.2643 9.24235 6.29842C9.24271 6.31498 9.24395 6.33315 9.24395 6.35032C9.24395 7.39946 8.87802 8.28458 8.14632 9.00566C7.41429 9.7262 6.35459 10.0874 4.96693 10.0874Z"
+										fill="white" />
+								</svg>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+	<script src="lib/swiper/swiper-bundle.min.js"></script>
+	<script src="js/rs-sliders-init.js"></script>
+	<script src="lib/aos/aos.js"></script>
+	<script>AOS.init({ duration: 500, easing: "ease-out-quart", once: true });</script>
+	<script src="js/rs-script.js"></script>
+
+</body>
+
+</html>

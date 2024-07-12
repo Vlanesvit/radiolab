@@ -1,0 +1,179 @@
+.rs-form {
+	@media (min-width: 1439.98px) {
+		margin: 144px 0px;
+	}
+
+	// .rs-form__container
+	&__container {
+	}
+
+	// .rs-form__wrapper
+	&__wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		max-width: 1370px;
+		margin: 0 auto;
+
+		& > * {
+			flex: 1 1 50%;
+
+			&:not(:last-child) {
+				margin-right: 30px;
+
+				@media (max-width: 991.98px) {
+					margin-right: 0px;
+					margin-bottom: 30px;
+				}
+			}
+
+			@media (max-width: 991.98px) {
+				flex: 1 1 100%;
+			}
+		}
+	}
+
+	// .rs-form__desc
+	&__desc {
+		position: relative;
+		padding: 100px 60px;
+		color: #fff;
+		clip-path: polygon(
+			69px 0%,
+			100% 0,
+			100% 0,
+			100% calc(100% - 69px),
+			calc(100% - 0px) 100%,
+			0 100%,
+			0 100%,
+			0% 69px
+		);
+
+		@media (max-width: 1439.98px) {
+			padding: 80px 30px;
+			clip-path: polygon(
+				40px 0%,
+				100% 0,
+				100% 0,
+				100% calc(100% - 40px),
+				calc(100% - 0px) 100%,
+				0 100%,
+				0 100%,
+				0% 40px
+			);
+		}
+
+		@media (max-width: 1169.98px) {
+			padding: 40px 20px;
+			clip-path: polygon(
+				20px 0%,
+				100% 0,
+				100% 0,
+				100% calc(100% - 20px),
+				calc(100% - 0px) 100%,
+				0 100%,
+				0 100%,
+				0% 20px
+			);
+		}
+
+		@media (max-width: 991.98px) {
+			padding: 20px;
+			clip-path: polygon(
+				15px 0%,
+				100% 0,
+				100% 0,
+				100% calc(100% - 15px),
+				calc(100% - 0px) 100%,
+				0 100%,
+				0 100%,
+				0% 15px
+			);
+		}
+	}
+
+	// .rs-form__bg
+	&__bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+
+	// .rs-form__body
+	&__body {
+		p {
+			margin-top: 24px;
+
+			@media (max-width: 1439.98px) {
+				margin-top: 16px;
+			}
+		}
+	}
+
+	// .rs-form__request
+	&__request {
+		padding: 100px 60px;
+		background-color: #efefef;
+		border: 1px solid #d1d1d1;
+		clip-path: polygon(
+			0px 0%,
+			100% 0,
+			100% 0,
+			100% calc(100% - 69px),
+			calc(100% - 69px) 100%,
+			0 100%,
+			0 100%,
+			0% 69px
+		);
+
+		@media (max-width: 1439.98px) {
+			padding: 80px 30px;
+			clip-path: polygon(
+				0px 0%,
+				100% 0,
+				100% 0,
+				100% calc(100% - 40px),
+				calc(100% - 40px) 100%,
+				0 100%,
+				0 100%,
+				0% 40px
+			);
+		}
+
+		@media (max-width: 1169.98px) {
+			padding: 40px 20px;
+			clip-path: polygon(
+				0px 0%,
+				100% 0,
+				100% 0,
+				100% calc(100% - 20px),
+				calc(100% - 20px) 100%,
+				0 100%,
+				0 100%,
+				0% 20px
+			);
+		}
+
+		@media (max-width: 991.98px) {
+			padding: 20px;
+			clip-path: polygon(
+				0px 0%,
+				100% 0,
+				100% 0,
+				100% calc(100% - 15px),
+				calc(100% - 15px) 100%,
+				0 100%,
+				0 100%,
+				0% 15px
+			);
+		}
+	}
+}

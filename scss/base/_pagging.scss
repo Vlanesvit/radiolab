@@ -1,0 +1,99 @@
+.pagging {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 30px;
+
+	@media (max-width: 991.98px) {
+		margin-top: 24px;
+	}
+
+	@media (max-width: 767.98px) {
+		justify-content: center;
+		margin-top: 16px;
+	}
+
+	// .pagging__arrow
+	&__arrow {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 36px;
+		height: 36px;
+		transition: all 0.3s ease 0s;
+		border-radius: 50%;
+		background-color: #f2f4f9;
+
+		svg {
+			path {
+				transition: stroke 0.3s ease 0s;
+			}
+		}
+
+		@media (any-hover: hover) {
+			&:hover {
+				background-color: var(--primary-color);
+				border-color: var(--primary-color);
+
+				svg {
+					path {
+						stroke: #fff;
+					}
+				}
+			}
+		}
+	}
+
+	// .pagging__prev
+	&__prev {
+		margin-right: 10px;
+	}
+
+	// .pagging__next
+	&__next {
+		margin-left: 10px;
+	}
+
+	// .pagging__list
+	&__list {
+		display: flex;
+		align-items: center;
+
+		li {
+			&:not(:last-child) {
+				margin-right: 10px;
+			}
+		}
+	}
+
+	// .pagging__item
+	&__item {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 50%;
+		border: 1px solid #d6dbe0;
+		width: 36px;
+		height: 36px;
+		font-weight: 400;
+		font-size: 12px;
+		// line-height: 14px;
+		line-height: 120%;
+		text-align: center;
+		color: #000;
+		background-color: transparent;
+		transition: all 0.3s ease 0s;
+
+		@media (any-hover: hover) {
+			&:hover {
+				background-color: #cccdf1;
+				border-color: #cccdf1;
+			}
+		}
+
+		&._active {
+			background-color: var(--primary-color);
+			border-color: var(--primary-color);
+			color: #fff;
+		}
+	}
+}

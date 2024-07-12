@@ -1,0 +1,161 @@
+.rs-slider {
+	margin-top: 0px;
+	padding: 222px 0px 77px;
+
+	@media (max-width: 991.98px) {
+		padding: 70px 0px 29px;
+		height: 415px;
+	}
+
+	// .rs-slider__bg
+	&__bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+
+	// .rs-slider__container
+	&__container {
+		@media (max-width: 991.98px) {
+			height: 100%;
+		}
+	}
+
+	// .rs-slider__content
+	&__content {
+		position: relative;
+
+		@media (max-width: 991.98px) {
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: flex-end;
+		}
+	}
+
+	// .rs-slider__slider
+	&__slider {
+		overflow: visible;
+		width: 100%;
+	}
+
+	// .rs-slider__swiper
+	&__swiper {
+	}
+
+	// .rs-slider__slide
+	&__slide {
+		.rs-slider {
+			&__body {
+				h1 {
+					animation: OutLeft 0.5s ease-in-out 0s both;
+				}
+
+				h4 {
+					animation: OutLeft 0.5s ease-in-out 0s both;
+				}
+			}
+
+			&__btn {
+				animation: OutLeft 0.5s ease-in-out 0s both;
+			}
+		}
+
+		&.swiper-slide-active {
+			.rs-slider {
+				&__body {
+					h1 {
+						animation: InLeft 0.5s ease-in-out 0.5s both;
+					}
+
+					h4 {
+						animation: InLeft 0.5s ease-in-out 0.75s both;
+					}
+				}
+
+				&__btn {
+					animation: InLeft 0.5s ease-in-out 1s both;
+				}
+			}
+		}
+	}
+
+	// .rs-slider__body
+	&__body {
+		color: #fff;
+		max-width: 1160px;
+
+		h4 {
+			margin-top: 32px;
+
+			@media (max-width: 1439.98px) {
+				margin-top: 24px;
+			}
+
+			@media (max-width: 991.98px) {
+				margin-top: 10px;
+			}
+		}
+	}
+
+	&__btn {
+		margin-top: 48px;
+
+		@media (max-width: 1439.98px) {
+			margin-top: 24px;
+		}
+
+		@media (max-width: 991.98px) {
+			margin-top: 10px;
+		}
+	}
+
+	// .rs-slider__action
+	&__action {
+		@media (min-width: 991.98px) {
+			position: absolute;
+			bottom: 0;
+			right: 0;
+		}
+
+		@media (max-width: 991.98px) {
+			margin-top: 24px;
+		}
+
+		.swiper-button-next svg path,
+		.swiper-button-prev svg path {
+			stroke: #fff;
+		}
+	}
+}
+
+@keyframes InLeft {
+	0% {
+		transform: translateX(30px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateX(0px);
+		opacity: 1;
+	}
+}
+
+@keyframes OutLeft {
+	0% {
+		transform: translateX(0px);
+		opacity: 1;
+	}
+	100% {
+		transform: translateX(-30px);
+		opacity: 0;
+	}
+}
