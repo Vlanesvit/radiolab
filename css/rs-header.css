@@ -518,7 +518,7 @@
 }
 @media (any-hover: hover) {
   .rs-header__menu .menu__list > li:hover > a {
-    text-shadow: 0px 0px 0 #fff, 0px 0px 0 #fff, 0px 0px 0 #fff, 0px 0px 0 #fff;
+    text-shadow: 0px 0px 1px #fff, 0px 0px 1px #fff, 0px 0px 1px #fff, 0px 0px 1px #fff;
   }
 }
 @media (min-width: 991.98px) and (any-hover: hover) {
